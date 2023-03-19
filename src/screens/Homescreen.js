@@ -3,7 +3,7 @@ import axios from "axios";
 import Room from "../components/Room";
 import Loader from "../components/Loader";
 //import Error from "../components/Error";
-import "antd/dist/antd.css"; // or 'antd/dist/antd.less'
+import "antd/dist/antd.min.css"; // or 'antd/dist/antd.less'
 import moment from "moment";
 import { DatePicker } from "antd";
 const { RangePicker } = DatePicker;

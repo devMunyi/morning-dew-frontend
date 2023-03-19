@@ -15,7 +15,6 @@ function Adminscreen() {
     window.location.href = "/home";
   }
 
-  //if(JSON.parse(loca))
   return (
     <div className="ml-3 mr-3 mt-3 mb-3 bs">
       <h2 className="text-center" style={{ fontSize: "30px" }}>
