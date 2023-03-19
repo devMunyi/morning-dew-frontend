@@ -8,14 +8,16 @@ import "aos/dist/aos.css";
 import moment from "moment";
 import StripeCheckout from "react-stripe-checkout";
 import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 
 AOS.init({
   duration: 1500,
 });
 
 function Bookingscreen() {
+  const navigate = useNavigate();
   if (!JSON.parse(localStorage.getItem("currentUser"))) {
-    window.location.href = "/login";
+    navigate("/login");
   }
 
   const [loading, setloading] = useState(true);
@@ -69,7 +71,7 @@ function Bookingscreen() {
         "Your Room Booked Successfully",
         "success"
       ).then((result) => {
-        window.location.href = "/profile";
+        navigate("/profile");
       });
     } catch (error) {
       setloading(false);

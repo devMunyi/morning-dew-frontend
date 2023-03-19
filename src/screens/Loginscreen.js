@@ -4,6 +4,7 @@ import Loader from "react-spinners/HashLoader";
 import Error from "../components/Error";
 import Success from "../components/Success";
 import {Link} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 function Loginscreen() {
   const [email, setemail] = useState("");
@@ -12,6 +13,8 @@ function Loginscreen() {
   const [loading, setloading] = useState(false);
   const [error, seterror] = useState(false);
   const [success, setsuccess] = useState(false);
+
+  const navigate = useNavigate();
 
   async function login() {
     const user = {
@@ -29,7 +32,7 @@ function Loginscreen() {
       localStorage.setItem("currentUser", JSON.stringify(userdata));
 
       setTimeout(function () {
-        window.location.href = "/home";
+        navigate("/home");
       }, 1500);
 
     } catch (error) {

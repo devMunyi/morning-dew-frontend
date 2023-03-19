@@ -1,18 +1,23 @@
 import React from "react";
+import { Tabs } from "antd";
+import { useNavigate } from "react-router-dom";
 import Bookings from "../components/Bookings";
 import Rooms from "../components/Rooms";
 import Users from "../components/Users";
 import Addroom from "../components/Addroom";
-import { Tabs } from "antd";
-const { TabPane } = Tabs;
+
+
 
 function Adminscreen() {
+  const { TabPane } = Tabs;
+  const navigate = useNavigate();
+
   if (!JSON.parse(localStorage.getItem("currentUser"))) {
-    window.location.href = "/login";
+    navigate("/login");
   }
 
   if (!JSON.parse(localStorage.getItem("currentUser")).isAdmin) {
-    window.location.href = "/home";
+    navigate("/home");
   }
 
   return (

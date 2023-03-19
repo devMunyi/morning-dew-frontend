@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homescreen from "./screens/Homescreen";
 import Bookingscreen from "./screens/Bookingscreen";
 import Registerscreen from "./screens/Registerscreen";
@@ -14,8 +14,9 @@ import Adminscreen from "./screens/Adminscreen";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <BrowserRouter>
+      <Router>
+        <Navbar />
+        
         <Routes>
           <Route path="/home" element={<Homescreen />} />
           <Route
@@ -28,7 +29,7 @@ function App() {
           <Route path="/" element={<Landingscreen />} />
           <Route path="/admin" element={<Adminscreen />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
