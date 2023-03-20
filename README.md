@@ -1,6 +1,6 @@
 # Morning Dew
 
-Morning Dew is online plaftom that allows visitors to book rooms and is integrated with stripe payment gateway.
+A full-stack app that allows visitors to book rooms and is integrated with stripe payment gateway.
 
 ## Built With
 - ReactJs
