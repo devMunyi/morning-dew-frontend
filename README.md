@@ -23,7 +23,7 @@
 
 # 📖 [booking-app] <a name="about-project"></a>
 
-> A Full-Stack web app that allows users to book rooms and make payment using stripe payment gateway.
+> A Frontend ReactJs app that allows users to book rooms and make payment using stripe payment gateway. It consumes API endpoints from a [NodeJs Backend](https://github.com/devMunyi/morning-dew-backend)
 
 ## 🛠 Built With <a name="built-with"></a>
 
