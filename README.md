@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [DocBooker Frontend] <a name="about-project"></a>
+# 📖 [Morning Dew Frontend] <a name="about-project"></a>
 
 > A Frontend ReactJs app that allows users to book rooms and make payment using stripe payment gateway. It consumes API endpoints from a [NodeJs Backend](https://github.com/devMunyi/morning-dew-backend)
 
@@ -50,7 +50,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://book-doc-appointment.netlify.app/)
+- [Live Demo Link](https://morning-dew.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
