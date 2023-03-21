@@ -31,22 +31,9 @@
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+    <li><a href="https://ant.design/">AntDesign</a></li>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://nodejs.org/en">NodeJs</a></li>
-    <li><a href="https://expressjs.com/">ExpressJs</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
 </details>
 
@@ -63,7 +50,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://main--dancing-taiyaki-c4c009.netlify.app/)
+- [Live Demo Link](https://book-doc-appointment.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
