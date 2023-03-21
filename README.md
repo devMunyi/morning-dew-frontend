@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [booking-app ] <a name="about-project"></a>
+# 📖 [booking-app] <a name="about-project"></a>
 
 > A Full-Stack web app that allows users to book rooms and make payment using stripe payment gateway.
 
