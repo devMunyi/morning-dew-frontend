@@ -23,7 +23,7 @@
 
 # 📖 [booking-app ] <a name="about-project"></a>
 
-> A full-stack app that allows visitors to book rooms and is integrated with stripe payment gateway.
+> A Full-Stack web app that allows users to book rooms and make payment using stripe payment gateway.
 
 ## 🛠 Built With <a name="built-with"></a>
 
