@@ -56,6 +56,7 @@
 - **[authentication]**
 - **[view available rooms]**
 - **[book room]**
+- - **[make payment]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +124,7 @@ Start a local server running the command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ] **[Integrate MPESA payment gateway]**
-- [ ] **[Integrate SMS API]**
+- [ ] **[Integrate SMS]**
 - [ ] **[Add email confirmation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
