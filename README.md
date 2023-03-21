@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [booking-app] <a name="about-project"></a>
+# 📖 [DocBooker Frontend] <a name="about-project"></a>
 
 > A Frontend ReactJs app that allows users to book rooms and make payment using stripe payment gateway. It consumes API endpoints from a [NodeJs Backend](https://github.com/devMunyi/morning-dew-backend)
 
