@@ -56,7 +56,7 @@
 - **[authentication]**
 - **[view available rooms]**
 - **[book room]**
-- - **[make payment]**
+- **[make payment]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
