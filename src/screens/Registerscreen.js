@@ -79,7 +79,7 @@ function Registerscreen() {
               required={true}
             />
             <input
-              type="text"
+              type="password"
               className="form-control"
               placeholder="Password"
               value={password}
@@ -89,7 +89,7 @@ function Registerscreen() {
               required={true}
             />
             <input
-              type="text"
+              type="password"
               className="form-control"
               placeholder="Cornfirm Password"
               value={cpassword}
