@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import axios from "axios";
 
-axios.defaults.baseURL = 'https://morning-dew-backend.onrender.com/';
+axios.defaults.baseURL = 'https://morningdew.sirmunyi.com/';
 
 ReactDOM.render(
   <React.StrictMode>

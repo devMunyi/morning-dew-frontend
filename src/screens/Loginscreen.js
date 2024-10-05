@@ -7,8 +7,8 @@ import {Link} from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
 
 function Loginscreen() {
-  const [email, setemail] = useState("");
-  const [password, setpassword] = useState("");
+  const [email, setemail] = useState("demo@gmail.com");
+  const [password, setpassword] = useState("1234");
 
   const [loading, setloading] = useState(false);
   const [error, seterror] = useState(false);
